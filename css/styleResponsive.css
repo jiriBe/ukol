@@ -1,0 +1,125 @@
+@media only screen and (max-width: 1000px), (max-device-width: 1000px) {
+    #navBorder {
+        display: none;
+    }
+
+    .navBorderMini {
+        display: block;
+        border: 1px solid #00B5FD;
+        color: #FFFFFF;
+        padding: 10px;
+    }
+
+    .naviDiv A {
+        color: #FFFFFF;
+        font-size: 16px;
+        font-weight: bold;
+        color: #FFFFFF;
+        text-decoration: none;
+        text-decoration-line: none;
+        text-align: center;
+        display: block;
+        background-color: #00B5FD;
+        padding: 10px 5px 10px 5px;
+        margin-top: 5px;
+    }
+
+    .naviDiv A:hover {
+        color: #FFD800
+    }
+
+    .textArray {
+        width: 300px;
+    }
+
+    ::-webkit-input-placeholder {
+        font-size: 11px;
+    }
+
+    :-ms-input-placeholder {
+        font-size: 11px;
+    }
+
+    ::placeholder {
+        font-size: 11px;
+    }
+
+    .boxList {
+        border-top: 2px solid #FB0000;
+    }
+
+}
+
+@media only screen and (max-width: 710px), (max-device-width: 710px) {
+
+    footer {
+        font-size: 11px;
+    }
+
+    .cPre {
+        font-size: 13px;
+    }
+
+    .profilePhoto {
+        display: inline-block;
+        flex-flow: row wrap;
+        width: 125px;
+    }
+
+    .profileRight ul ul li {
+        list-style-type: none;
+        font-style: italic;
+        font-size: 12px;
+    }
+
+    .profileRight {
+        font-size: 15px;
+        width: 60%;
+        min-width: 290px;
+        padding: 10px;
+    }
+
+    .profileLeft {
+        font-size: 15px;
+        width: 21%;
+        min-width: 290px;
+        padding: 10px;
+    }
+
+    .borderSquaresLeft {
+        width: 33%;
+        font-size: 14px;
+    }
+
+    .borderSquaresRight {
+        width: 45%;
+    }
+
+    .resSmallText {
+        font-size: 14px;
+    }
+
+    .messageInSpan {
+        font-size: 14px;
+    }
+
+    .resWordSmallText {
+        font-size: 14px;
+    }
+
+    .profileRightDivAbout {
+        font-size: 15px;
+        color: #909090;
+        border-bottom: 1px solid #00B5FD;
+    }
+
+    .profileRightDiv {
+        padding: 0 0 5px 0;
+        font-size: 14px;
+    }
+
+    .boxList {
+        border-top: 2px solid #FB0000;
+    }
+
+}
