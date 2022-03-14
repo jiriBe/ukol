@@ -14,7 +14,7 @@ include B . 'func/SecLink.php';
 include B . 'func/Navigation.php';
 include B . 'func/SwitchMeta.php';
 include B . 'func/SwitchInclude.php';
-include B . 'func/SessonToken.php';
+include B . 'func/SessionToken.php';
 include B . 'func/Code.php';
 include B . 'func/BrowserTest.php';
 include B . 'InsertLogic.php';
