@@ -64,13 +64,16 @@ class Select extends Db\Database{
                     $outputData->phone = $resultQuery->phone;
                 }
 
-                $outputData->string = (object) ['firstName' => $resultQuery->firstName,
+                $outputData->string = (object) [
+                    'firstName' => $resultQuery->firstName,
                     'lastName' => $resultQuery->lastName,
                     'phone' => $outputData->phone,
                     'email' => $resultQuery->mail,
                     'note' => $resultQuery->note,
                     'myCode' => $resultQuery->code,
-                    'stop' => false];
+                    'stop' => false
+                ];
+                
                 $outputData->myCode = true;
             } else {
                 $outputData->string = (object) ['stop' => true];
