@@ -73,7 +73,7 @@ class Select extends Db\Database{
                     'myCode' => $resultQuery->code,
                     'stop' => false
                 ];
-                
+
                 $outputData->myCode = true;
             } else {
                 $outputData->string = (object) ['stop' => true];
